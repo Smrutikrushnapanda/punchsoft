@@ -245,8 +245,8 @@ function Contact() {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
-                      d="M8 10h.01M12 10h.01M16 10h.01M9 16H5v-2l3.01-2.01M19 16h-4v-2l-3.01-2.01M12 14v-2l3.01-2.01"
-                    ></path>
+                      d="M17 8h2a2 2 0 012 2v7a2 2 0 01-2 2h-2.586A2 2 0 0015 18.414l-2.293-2.293A1 1 0 0012 16H7a2 2 0 01-2-2V8a2 2 0 012-2h10a2 2 0 012 2z"
+                    />
                   </svg>
                   Message
                 </label>
