@@ -176,20 +176,7 @@ function Contact() {
                   htmlFor="name"
                   className="block text-gray-700 font-medium mb-2"
                 >
-                  <svg
-                    className="w-5 h-5 inline-block mr-2 text-[#372AAC]"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                    ></path>
-                  </svg>
+                  <i className="bi bi-person-fill text-[#372AAC] mr-2"></i>
                   Name
                 </label>
                 <input
@@ -205,20 +192,7 @@ function Contact() {
                   htmlFor="email"
                   className="block text-gray-700 font-medium mb-2"
                 >
-                  <svg
-                    className="w-5 h-5 inline-block mr-2 text-[#372AAC]"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                    ></path>
-                  </svg>
+                  <i className="bi bi-envelope-fill text-[#372AAC] mr-2"></i>
                   Email
                 </label>
                 <input
@@ -234,20 +208,7 @@ function Contact() {
                   htmlFor="message"
                   className="block text-gray-700 font-medium mb-2"
                 >
-                  <svg
-                    className="w-5 h-5 inline-block mr-2 text-[#372AAC]"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M17 8h2a2 2 0 012 2v7a2 2 0 01-2 2h-2.586A2 2 0 0015 18.414l-2.293-2.293A1 1 0 0012 16H7a2 2 0 01-2-2V8a2 2 0 012-2h10a2 2 0 012 2z"
-                    />
-                  </svg>
+                  <i className="bi bi-chat-dots-fill text-[#372AAC] mr-2"></i>
                   Message
                 </label>
                 <textarea
@@ -262,20 +223,7 @@ function Contact() {
                 type="submit"
                 className="w-full bg-[#372AAC] text-white py-3 rounded-lg hover:bg-[#F7941D] transition duration-300 font-medium flex items-center justify-center gap-2"
               >
-                <svg
-                  className="w-5 h-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
-                  ></path>
-                </svg>
+                <i className="bi bi-send-fill"></i>
                 Send Message
               </button>
             </form>
